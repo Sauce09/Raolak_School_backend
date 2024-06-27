@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    padding-top: 15px;
+    width: 100%;
+    height: 106px;
+    background-color: navy;
+    position: fixed; 
+    margin-top: -150px;
+ }
+
+ .Raolak-logo {
+    width: 7%;
+    height: 120px;
+    background-image: url('img/Raolak-Logo.png'); 
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: 215px;
+    margin-top: 25px;
+    }
+
+ .img {
+    width: 5%;
+    height: 50px;
+ }
+
+.school-name {
+    font-family: segoe ui;
+   font-size: 23px;
+   color: rgb(241, 109, 61);
+   margin-top: -150px;
+   padding-left: 100px;
+   display: block;
+   text-shadow:
+   -2px -2px 0px #fff,
+   2px -2px 0px #fff,
+  -2px 2px 0px #fff,
+  2px 2px 0px #fff;
+     
+}
+
+.links-1 {
+    display: block;
+    margin: -40px;
+    padding-left: 750px;
+    width: fit-content;    
+}
+
+.links-1 li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;    
+}
+
+.links-1 li a {
+    font-family: serif;
+    font-size: 15px;
+    color: #fff;
+    list-style: none;
+    border-bottom: 1px solid rgb(252, 83, 21);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   }
+
+   .links-2 {
+    display: block;
+    padding-top: 80px;
+    padding-left: 80px;
+    width: fit-content;    
+}
+
+.links-2 li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px; 
+    position: relative;   
+}
+
+.links-2 li a {
+    font-family: serif;
+    font-size: 15px;
+    color: #fff;
+    list-style: none;
+   }
+
+   /Drop down codes/
+
+   span {
+    padding-left: 10px;
+    color: white;
+    font-weight: 1000;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+   .links-2 li ul {
+   display: none;
+   position: absolute;
+   background-color: #f3f3f39c;
+   line-height: 30px;
+   padding: 5px;
+   border-radius: 0px 0px 5px 5px;
+  }
+
+  
+  .links-2 li:hover ul {
+    display: block;
+   }
+ 
+
+  .links-2 li ul li  {
+    width: 250px;
+    border-radius: 5px;
+   }
+
+  .links-2 li ul li a {
+    padding: 8px 14px;
+    color: green;
+   }
+
+   .links-2 li ul li a:hover {
+    background-color: rgb(252, 76, 12);
+   }
+
+
+body {
+    background-color: rgb(175, 175, 223);
+}
+
+form {
+    width: 600px;
+    margin: 150px auto 0 auto; 
+    padding: 20px;
+    box-shadow: 0 4px 4px 0 #342755, 0 4px 4px 0 #342755;
+    background-color:  rgb(203, 204, 216);
+    
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.box1 {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+}
+
+.div1 {
+    display: inline-block;
+}
+
+.div2 {
+    display: inline-block;
+    width: 100%;
+}
+
+.box2 {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0 15px 12px;
+    display: inline  ;
+} 
+
+button {
+    width: 34%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(106, 106, 224);
+    color: white;
+    float: right;
+    margin: -50px 50px 0 0;
+
+}
+
+#passwordbox {
+    padding: 10px;
+    width: 35%;
+    border: none;
+    border-radius: 5%;
+    margin: 0 0 0 45px;
+}
+.passwordlabel {
+    margin: 8%;
+}
+
+.label1 {
+    margin: 0 0 0 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 25px;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-section .social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-section .social img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
